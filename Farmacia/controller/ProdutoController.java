@@ -68,7 +68,7 @@ public class ProdutoController implements produtoRepository{
 		
 		/* Métodos Auxiliares */
 
-		public int gerarNumero() {
+		public int gerarId() {
 			return ++id;
 		}
 
